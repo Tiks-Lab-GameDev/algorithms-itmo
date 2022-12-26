@@ -1,0 +1,11 @@
+/.idea
+
+/Lab1/cmake-build-debug/
+/Lab1/.idea/
+/Lab2/cmake-build-debug/
+/Lab2/.idea/
+/Lab3/cmake-build-debug/
+/Lab3/.idea/
+
+/Lab3/module/cmake-build-debug/
+/Lab3/tests/cmake-build-debug/
