@@ -123,6 +123,7 @@ template<typename T>
 void Array<T>::resize() {
     capacity_ *= 2;
 
+    //TODO: replace realloc by malloc - DONE!
     T* tempData = (T*) malloc(capacity_ * sizeof(T));
 
     for(size_t i = 0; i < size_; ++i){
